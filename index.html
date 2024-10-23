@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приложение погоды</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Погода в городах</h1>
+
+        <!-- Форма для выбора городов -->
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Введите название города" required>
+            <button type="submit">Добавить город</button>
+        </form>
+
+        <!-- Список погоды для выбранных городов -->
+        <div id="weather-container"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
